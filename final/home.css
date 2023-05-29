@@ -1,0 +1,144 @@
+body{
+margin:0;
+padding:0;
+background-color: #fff;
+}
+div{
+  display:inline-block;
+  float:left;
+  clear:none;
+}
+.nav{
+list-style-type: none;
+
+
+}
+
+
+li{
+display:inline;
+margin-right:12px;
+
+}
+
+a{
+  text-decoration:none;
+  color:#fff;
+}
+.top{
+width:100%;
+height:890px;
+
+font-size: 15px;
+background-color:rgba(0, 34,54,0.2);
+background: url('home.jpg');
+background-size: cover;
+box-shadow: 0 4px 8px 0 grey;
+
+}
+.nav-div{
+ margin-left: 62%;
+ position:fixed;
+ background-color:#000;
+ width:100%;
+
+
+}
+img{
+width:120px;
+height:120px;
+}
+.svg{
+position:relative;
+margin-top:80px;
+height:590px;
+}
+.main{
+
+  width:100%;
+  height:1000px;
+  box-shadow: 0 4px 8px 0 grey;
+
+}
+.bottom{
+ margin-top:0;
+
+  width:100%;
+  height:300px;
+  background-color:rgba(0, 34,54,0.2);
+
+}
+.content{
+  width:250px;
+  height:300px;
+  position:relative;
+
+
+  margin-top: 260px;
+  margin-left: 85px;
+  background:url('corned beef.jpg');
+  background-size: cover;
+  box-shadow:0 4px 8px 0 grey;
+}
+.cont{
+ width:250px;
+ height:300px;
+ position:relative;
+ margin-top:260px;
+ margin-left: 30px;
+ background:url('pasta primavera.jpg');
+ box-shadow: 0 4px 8px 0 grey;
+}
+.conts{
+  width:250px;
+  height:300px;
+  position:relative;
+  margin-top:260px;
+  margin-left: 30px;
+  background:url('seasoned crunchy cod fillets.jpg');
+  box-shadow: 0 4px 8px 0 grey;
+}
+.contsr{
+  width:250px;
+  height:300px;
+  position:relative;
+  margin-top: 260px;
+  margin-left: 30px;
+  background:url('Sega-Wat.jpg');
+  box-shadow: 0 4px 8px 0 grey;
+}
+.contsrd{
+  width:250px;
+  height:300px;
+  position:relative;
+  margin-top:260px;
+  margin-left: 30px;
+  background:url('Sega-Wat.jpg');
+  box-shadow: 0 4px 8px 0 grey;
+}
+.header{
+
+  padding-top: 100px;
+ color:#000;
+}
+button{
+ border:none;
+ color:white;
+ padding:15px 32px;
+ text-align: center;
+  text-decoration: none;
+  font-size:16px;
+  background-color: #98b4d4;
+}
+.sign{
+  margin-top: 90px;
+  margin-left: 49%;
+  position:relative;
+
+}
+.btform{
+  width:250px;
+  height:300px;
+  margin-left:400px;
+ position:relative;
+}

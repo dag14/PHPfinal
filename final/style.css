@@ -1,0 +1,34 @@
+body{
+margin:0;
+padding:0;
+background-color: yellow;
+}
+div{
+  display:inline-block;
+  float:left;
+  clear:none;
+}
+.top{
+
+  width:100%;
+  height:290px;
+
+  font-size: 15px;
+  background-color:rgba(0, 34,54,0.2);
+
+  box-shadow: 0 4px 8px 0 grey;
+
+}
+.main{
+
+  width:100%;
+  height:1000px;
+  box-shadow: 0 4px 8px 0 grey;
+
+}
+.add{
+
+  border-color: red;
+  height:1290px;
+  width:100%;
+}

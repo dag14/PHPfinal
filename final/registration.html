@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+ <head>
+ <title>Registartion</title>
+ <link href="registration.css" rel="stylesheet"/>
+ <script src="reg.js" type="text/javascript"></script>
+ </head>
+ <body>
+<div class="registration">
+  <h1>Register here</h1>
+ <form name="reg" method="post" action="#">
+
+  <table>
+  <tr><td><label>Firstname:</label></td></tr>
+  <tr><td><input type="text" name="fname" class="fields" placeholder="type your first name" ></td></tr>
+  <tr><tr><td><label>Lastname:</label></td></tr>
+  <tr><td><input type="text" name="lname" class="fields" placeholder="type your last name" ></td></tr>
+  <tr><td><label>Password:</label></td></tr>
+  <tr><td><input type="password" name="pname" class="fields" placeholder="type your password"></td></tr>
+  <tr><td><label>Confirm Password:</label></td></tr>
+  <tr><td><input type="password" name="cpname" class="fields" placeholder="confirm your password"></td></tr>
+  <tr><tr><td><label>Email:</label></td></tr>
+  <tr><td><input type="email" name="email" class="fields" placeholder="type your email here" autocomplete="off"></td></tr>
+  <tr><tr><td><label>Gender:</label></td></tr>
+  <tr><td><label>Male:</label><input type="radio" name="sex"></td>
+  <td><label>Female:</label><input type="radio" name="sex"></td></tr>
+  <tr><tr><td><label>I am:</label></td></tr>
+  <tr><td><label>Vegan:</label><input type="radio" name="vegan"></td>
+  <td><label>Non Vegan:</label><input type="radio" name="vegan"></td></tr>
+  <tr><tr><td><label>I am:</label></td></tr>
+  <tr><td><label>Diabetic:</label><input type="radio" name="Diabetic"></td>
+  <td><label>Normal:</label><input type="radio" name="Diabetic"></td></tr>
+  <tr><tr><td><label>I would like to:</label></td></tr>
+  <tr><td><label>lose weight:</label><input type="radio" name="weight_loss"></td>
+  <td><label>gain weight:</label><input type="radio" name="weight_loss"></td></tr>
+  <tr><td><input type="submit" onclick="check()" value="Register" name="login" id="btn"></td></tr>
+ </table>
+</div>
+ </body>
+</html>
